@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(126, 169, 209);
+        }
+
+        img {
+            width: 400px;
+            height: 300px;
+            border-radius: 20px;
+        }
+
+        .container-body {
+            align-items: center;
+            text-align: center;
+
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container-body">
+        <h1>Video Stream con Mediapipe</h1>
+        <h2>Contador de dedos</h2>
+        <img src="{{url_for('video_feed')}}">
+    </div>
+
+</body>
+
+</html>

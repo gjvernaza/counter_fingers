@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(126, 169, 209);
+}
+
+.container-body {
+    align-items: center;
+    text-align: center;
+}
