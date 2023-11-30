@@ -5,7 +5,7 @@ from keras.models import load_model
 
 
 np.set_printoptions(suppress=True)
-model = load_model("counter_fingers/model/model_keras_100_epochs/keras_Model.h5", compile=False)
+model = load_model("counter_fingers/model/model_keras_100_epochs/keras_Model.h5", compile=True)
 class_names = open("counter_fingers/model/model_keras_100_epochs/labels.txt", "r").readlines()
 
 cap = cv2.VideoCapture(0)
